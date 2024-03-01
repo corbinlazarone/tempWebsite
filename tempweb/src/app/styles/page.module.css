@@ -39,4 +39,35 @@
     font-family: "Roboto", sans-serif;
   }
   
+@media (max-width: 768px) {
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .rightSideDiv {
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+  }
+  .textDiv {
+    width: 100%;
+  }
+  .imageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }
+  .spotifyDiv {
+    width: 100%;
+  }
+  .socialDiv a {
+    padding:10px
+  }
+}
   
