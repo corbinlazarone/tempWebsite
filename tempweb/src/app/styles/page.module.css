@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.rightSideDiv {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainDiv {
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+
+.imageDiv h1 {
+    padding-bottom: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.socialDiv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.spotifyDiv {
+    width: 60%;
+}
+
+.textDiv {
+    padding-top: 5px;
+}
+
+.textDiv h3 {
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
