@@ -1,11 +1,11 @@
 import styles from "@/app/styles/page.module.css";
 import Image from "next/image";
-import corbinImage from "@/app/utils/images/ME.jpg";
+import corbinImage from "@/app/utils/images/corbinImage.jpg";
 import {
   InstagramOutlined,
-  TwitterOutlined,
   LinkedinOutlined,
   GithubOutlined,
+  XOutlined
 } from "@ant-design/icons";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
           src={corbinImage}
           alt="corbin-image"
           height={400}
-          width={270}
+          width={300}
           style={{ borderRadius: 12 }}
         />
         <div id="socials" className={styles.socialDiv}>
@@ -27,7 +27,7 @@ export default function Home() {
             />
           </a>
           <a href="https://twitter.com/corbinlaz" target="_blank">
-            <TwitterOutlined
+            <XOutlined
               style={{ fontSize: 36 }}
             />
           </a>
